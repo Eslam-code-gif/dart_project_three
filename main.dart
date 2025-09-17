@@ -1,14 +1,20 @@
-import 'dart:io';
+import 'game.dart';
+import 'theming.dart';
 
 void main(){
-  while(true){
-  int numb=5;
-  print("Guess the number from 1:10.");
-  int guss=int.tryParse(stdin.readLineSync()??'')??0 ;
-  if(numb==guss){print("yes");
+  print(colorize(r'''
+  __        __   _                            _ 
+  \ \      / /__| | ___ ___  _ __ ___   ___  | |
+   \ \ /\ / / _ \ |/ __/ _ \| '_ ` _ \ / _ \ | |
+    \ V  V /  __/ | (_| (_) | | | | | |  __/ |_|
+     \_/\_/ \___|_|\___\___/|_| |_| |_|\___| (_)
+  ''',yellow+bold));
   
-  }
-  else print("no");
-  }
-
+    print(
+      colorize("--- Welcome to the Password Guessing Game ---",
+      cyan
+      )
+      );
+    print("I've chosen a Password with five digits. Can you guess it?");
+    startTheGame();
 }
