@@ -96,6 +96,6 @@ The password is: [62, 45, 130, 99, 78]
 
 ## 📜 License
 
-This project is licensed under the MIT License. [cite\_start]See the [LICENSE](https://www.google.com/search?q=LICENSE) file for details. [cite: 1]
+This project is licensed under the MIT License.See the [LICENSE](https://github.com/Eslam-code-gif/dart_project_three/blob/main/LICENSE) file for details.
 
-[cite\_start]Copyright (c) 2025 Abdelrahim mohamed abdelrahim ibrahim (Eslam-code-gif) [cite: 1]
+Copyright (c) 2025 Abdelrahim mohamed abdelrahim ibrahim (Eslam-code-gif)
