@@ -77,7 +77,7 @@ Enter your guess: 62
 ✅  Correct! The number was 62.
 It took you 3 attempt(s).
 
-... (تستمر اللعبة للجولات التالية) ...
+... (The game continues) ...
 
 ==================================================
 
